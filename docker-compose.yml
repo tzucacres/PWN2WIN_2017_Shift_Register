@@ -1,0 +1,6 @@
+services:
+  shiftregister:
+    build: .
+    image: pwn2win-shiftreg
+    container_name: shiftregister
+    command: ["python", "solve3.py"]
